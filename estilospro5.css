@@ -1,0 +1,280 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    flex-direction: column ;
+    min-height: 100vh;
+
+  }
+
+.micajapadre{
+    height: 200px;
+    background-color: rgb(12, 12, 12);
+    position: relative
+    
+  }
+  
+  .imgtop {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+  .micajaimagen{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  .miavatar{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  h1 {
+    color: aliceblue;
+    text-shadow: 3px 3px 0px black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+/* espacio separador*/
+.spacebetween {
+    height: 130px;
+}
+.spacefooter {
+  height: 20px;
+}
+/* espacio separador*/
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+  .boton1 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .boton2 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton3 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton4 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton5 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton6 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: lightseagreen;
+    transition: .4s ease-out;
+  }
+
+  /* espacio entre listas y cartas*/
+
+.midconten {
+    color: azure;
+  }
+
+.contenedorcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  
+  .card5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+.footcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: end;
+    height: 350px;
+    background: linear-gradient(rgb(12, 12, 12), rgb(0, 0, 0) );
+    margin-top: auto;
+    
+}
+
+.developeravatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar2{
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+h2 {
+    text-shadow: 2px 2px 0px black;
+    color: lightseagreen;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.content{
+  display: none;
+  height: fit-content;
+ /* width: 90%;
+  background-color: rgb(32, 32, 32);
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;*/
+}
+
+.content-active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
